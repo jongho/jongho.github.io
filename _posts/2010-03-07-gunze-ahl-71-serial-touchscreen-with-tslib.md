@@ -3,6 +3,8 @@ title: "GUNZE AHL-71 Serial TouchPanel with tslib"
 date: 2010-03-07 20:40:00 +0900
 categories: gunze ahl71 serial touchpanel tslib
 ---
+## GUNZE AHL-71 Serial TouchPanel with tslib
+
 ### 1. 개요
 
 #### tslib
@@ -15,7 +17,7 @@ tslib는 흔히 임베디드 리눅스에서 qt를 사용할 때, 터치스크�
 - http://www.gunze.co.jp/denzai/en/download/index.html
 - https://www.gunzeusa.com/products/controllers-and-drivers/controllers-and-drivers-analog-resistive/
 - https://www.gunzeusa.com/wp-content/uploads/AHL-71N.pdf
- 
+
 
 ### 2. 소스
 
