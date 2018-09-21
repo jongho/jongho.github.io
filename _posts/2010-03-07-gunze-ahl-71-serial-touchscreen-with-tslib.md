@@ -9,14 +9,14 @@ categories: gunze ahl71 serial touchpanel tslib
 
 #### tslib
 tslib는 흔히 임베디드 리눅스에서 qt를 사용할 때, 터치스크린을 이용하기 위해 사용되는 중간 드라이버 레이어(?)이다.
-- http://www.tslib.org/
-- https://github.com/kergoth/tslib
+- <http://www.tslib.org/>
+- <https://github.com/kergoth/tslib>
 
 #### GUNZE AHL-71 Serial TouchPanel
 터치스크린과 보드 사이의 거리가 멀면, 전송이 어려워진다. 이러한 상황에서 AHL-71과 같은 컨트롤러를 사용하여 시리얼 방식으로 전송한다.
-- http://www.gunze.co.jp/denzai/en/download/index.html
-- https://www.gunzeusa.com/products/controllers-and-drivers/controllers-and-drivers-analog-resistive/
-- https://www.gunzeusa.com/wp-content/uploads/AHL-71N.pdf
+- <http://www.gunze.co.jp/denzai/en/download/index.html>
+- <https://www.gunzeusa.com/products/controllers-and-drivers/controllers-and-drivers-analog-resistive/>
+- <https://www.gunzeusa.com/wp-content/uploads/AHL-71N.pdf>
 
 
 ### 2. 소스
