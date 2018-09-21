@@ -3,9 +3,6 @@ title: "GUNZE AHL-71 Serial TouchPanel with tslib"
 date: 2010-03-07 20:40:00 +0900
 categories: gunze ahl71 serial touchpanel tslib
 ---
-GUNZE AHL-71 Serial TouchPanel with tslib
-==========================================
-
 ### 1. 개요
 
 #### tslib
