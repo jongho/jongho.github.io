@@ -105,4 +105,4 @@ TSAPI struct tslib_module_info *mod_init(struct tsdev *dev, const char *params)
 ```
 
 ### 다운로드
-- [tslib-rev77-gunze71.tar.gz](http://zwolf.tistory.com/attachment/cfile27.uf@155FDB104B8E15C34AE1FE.gz)
+- [tslib-rev77-gunze71.tar.gz](https://github.com/jongho/jongho.github.io/raw/master/files/tslib-rev77-gunze71.tar.gz)
