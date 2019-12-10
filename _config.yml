@@ -108,7 +108,7 @@ analytics:
 # Site Author
 author:
   name             : "Lim, Jongho"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "https://www.gravatar.com/avatar/91ccecf51a8da1c5b256283bf8ec6acc" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "개발자. 생활 코더. 애아부지."
   location         : 
   email            :
@@ -118,7 +118,7 @@ author:
       url: mailto:jongho.lim@gmail.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+      url: "zwolf.org"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
