@@ -108,7 +108,7 @@ analytics:
 # Site Author
 author:
   name             : "Lim, Jongho"
-  avatar           : "https://www.gravatar.com/avatar/91ccecf51a8da1c5b256283bf8ec6acc" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "https://www.gravatar.com/avatar/91ccecf51a8da1c5b256283bf8ec6acc?s=200.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "개발자. 생활 코더. 애아부지."
   location         : 
   email            :
