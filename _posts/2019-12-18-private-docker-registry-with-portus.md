@@ -21,9 +21,9 @@ docker run -d -p 5000:5000 --restart=always --name docker-registry \
 ```
 하지만 기본적으로 Docker Registry에는 사용자 인증 기능을 제공하지 않아서 누구든지 push/pull이 가능했다. 사용자 인증 기능이 필요했다.
 > 참고
-> - https://docs.docker.com/registry/
-> - https://docs.docker.com/registry/storage-drivers/s3/
-> - https://github.com/docker/distribution
+> - [https://docs.docker.com/registry/](https://docs.docker.com/registry/)
+> - [https://docs.docker.com/registry/storage-drivers/s3/](https://docs.docker.com/registry/storage-drivers/s3/)
+> - [https://github.com/docker/distribution](https://github.com/docker/distribution)
 
 ## [Portus](http://port.us.org/)
 오픈 소스이면서 간단히 Docker Registry의 사용자 인증 기능을 제공하며 LDAP 연동도 가능한 서비스 모듈을 찾아보았다. Portus가 제격인 것 같다. 다음은 Portus 홈페이지에 나와있는 설명이다.
@@ -210,7 +210,7 @@ latest: digest: sha256:92c7f9c92844bbbb5d0a101b22f7c2a7949e40f8ea90c8b3bc396879d
 
 ## 나머지
 - LDAP 연동
-    - https://github.com/SUSE/Portus/blob/master/examples/compose/docker-compose.ldap.yml
+    - [docker-compose.ldap.yml 예제](https://github.com/SUSE/Portus/blob/master/examples/compose/docker-compose.ldap.yml)
 - Nginx Proxy 설정
-    - https://github.com/SUSE/Portus/blob/master/examples/compose/docker-compose.yml
-    - https://github.com/SUSE/Portus/blob/master/examples/compose/nginx/nginx.conf
+    - [docker-compose.yml 예제](https://github.com/SUSE/Portus/blob/master/examples/compose/docker-compose.yml)
+    - [nginx.conf 예제](https://github.com/SUSE/Portus/blob/master/examples/compose/nginx/nginx.conf)
