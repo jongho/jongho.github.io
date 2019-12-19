@@ -20,6 +20,7 @@ docker run -d -p 5000:5000 --restart=always --name docker-registry \
   registry:2
 ```
 하지만 기본적으로 Docker Registry에는 사용자 인증 기능을 제공하지 않아서 누구든지 push/pull이 가능했다. 사용자 인증 기능이 필요했다.
+
 > 참고
 > - [https://docs.docker.com/registry/](https://docs.docker.com/registry/)
 > - [https://docs.docker.com/registry/storage-drivers/s3/](https://docs.docker.com/registry/storage-drivers/s3/)
@@ -28,6 +29,12 @@ docker run -d -p 5000:5000 --restart=always --name docker-registry \
 ## [Portus](http://port.us.org/)
 오픈 소스이면서 간단히 Docker Registry의 사용자 인증 기능을 제공하며 LDAP 연동도 가능한 서비스 모듈을 찾아보았다. Portus가 제격인 것 같다. 다음은 Portus 홈페이지에 나와있는 설명이다.
 > Portus is an open source authorization service and user interface for the next generation Docker Registry.
+
+> 참고
+> - [http://port.us.org/](http://port.us.org/)
+> - [http://port.us.org/docs/first-steps.html](http://port.us.org/docs/first-steps.html)
+> - [https://github.com/SUSE/Portus](https://github.com/SUSE/Portus)
+> - [https://github.com/SUSE/Portus/tree/master/examples/compose](https://github.com/SUSE/Portus/tree/master/examples/compose)
 
 ### .env
 ```
