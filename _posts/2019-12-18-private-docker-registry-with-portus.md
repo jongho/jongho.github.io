@@ -19,7 +19,7 @@ docker run -d -p 5000:5000 --restart=always --name docker-registry \
   -e REGISTRY_STORAGE_S3_REGION=ap-northeast-2 \
   registry:2
 ```
-하지만 기본적으로 Docker Registry에는 사용자 인증 기능을 제공하지 않아서 누구든지 push/pull이 가능했다. 사용자 인증 기능이 필요했다.
+하지만 기본적으로 Docker Registry에는 간단한 htpasswd 사용자 인증 기능만 제공한다. 제대로된 사용자 인증 기능이 필요했다.
 
 > 참고
 > - [https://docs.docker.com/registry/](https://docs.docker.com/registry/)
